@@ -22,7 +22,7 @@
     "url": "https://github.com/elangendoen/cli-questionnaire.git"
   },
   "keywords": ["cli", "questionnaire", "interactive", "prompts"],
-  "author": "Edmar Langendoen <e_langendoen@hotmail.com>",
+  "author": "Edmar Langendoen",
   "license": "ISC",
   "description": "A CLI questionnaire tool for interactive prompts.",
   "devDependencies": {
