@@ -113,6 +113,49 @@ Each question in the `questions` array can have the following properties:
 
 ---
 
+### Question Types with Examples 🛠️
+
+Here are examples of the different question types supported by the `Prompt` function:
+
+#### Multiple-Choice Question
+
+A question with predefined options that the user can select from:
+
+```typescript
+{
+  id: 'q1',
+  type: 'multiple-choice',
+  question: 'What is your favorite programming language?',
+  options: ['JavaScript', 'TypeScript', 'Python', 'Java'],
+}
+```
+
+#### Open Question
+
+A free-text question where the user can type their answer:
+
+```typescript
+{
+  id: 'q1',
+  type: 'open',
+  question: 'What is your name?',
+}
+```
+
+#### Number Question
+
+A question expecting a numeric answer:
+
+```typescript
+{
+  id: 'q1',
+  type: 'number',
+  question: 'How many years of experience do you have in programming?',
+}
+```
+
+---
+
 ## Build 🏗️
 
 To compile the TypeScript code to JavaScript, run:
